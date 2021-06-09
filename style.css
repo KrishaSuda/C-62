@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+#App {
+    height: 850;
+    color: white;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(#006d77 0%, #83c5be 100%);
+    width: 100%;
+}
+
+#myCarousel {
+    height: 550px;
+    left: 0px;
+    right: 0px;
+    color: white;
+    top: 50px;
+    background: linear-gradient(#e29578 0%, #ffddd2 100%);
+    width: 100%;
+}
+
+
+.img-responsive {
+    transition: 0.25s;
+    padding: 50px;
+    margin-top: 25px;
+}
+
+.img-responsive:hover {
+    transform: scale(0.9)
+}
+
+#myCarousel p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
